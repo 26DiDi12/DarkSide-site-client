@@ -1,0 +1,25 @@
+.MenuNews {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  height: 600px;
+}
+.MenuNews a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.MenuNews a:hover {
+  color: rgb(133, 133, 133);
+}
+.PageMenu {
+  padding: 30px 0px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.MenuBorder {
+  background-color: #141F2F;
+  height: 85%;
+  width: 3px;
+  margin: 0px 60px;
+}

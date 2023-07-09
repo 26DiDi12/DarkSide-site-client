@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "MedusaGothic";
+  src: url("/fonts/MedusaGothic D.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "Monserrat";
+  src: url("/fonts/Montserrat-Medium.ttf") format("TrueType");
+}
+
+* {
+
+  /* border: solid 1px red; */
+
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #141F2F;
+}
+
+.App {
+  background-color: #141F2F;
+}
+
+.App-page {
+  padding: 10px 15px;
+  min-height: 50vh;
+}
+.App-header-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-header {
+  border: solid 5px #BA9D00;
+  border-radius: 15px;
+  background-color: #5F2424;
+  min-height: 96vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header-links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.App-header-links a {
+  margin: 0px 1%;
+}
+
+.link {
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  margin: 0px -5%;
+}
+
+.App-Desc {
+  margin: 0px 60px;
+  color: white;
+  text-align: justify;
+  text-shadow: 3px -3px 2px #000000;
+  font-family: 'MedusaGothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App-Desc h1 {
+  text-align: center;
+  font-size: 65px;
+}
+
+.App-Desc p {
+  font-size: 35px;
+}
+
+.App-news-time {
+  font-family: 'Monserrat', Arial, sans-serif;
+  font-size: 35px;
+}
+
+.More-News-Button {
+  background-color: #5F2424;
+  border-radius: 15px;
+  border: solid 5px #BA9D00;
+  color: white;
+  font-size: 30px;
+  font-family: 'MedusaGothic', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 3px -3px 2px #000000;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.More-News-Button:hover {
+  font-size: 35px;
+  width: 300px;
+}
+
+.round-Img {
+  border-radius: 15px;
+  border: solid 5px #BA9D00;
+  margin: 0px 60px;
+}

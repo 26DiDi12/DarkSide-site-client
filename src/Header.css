@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "MedusaGothic";
+  src: url("/fonts/MedusaGothic D.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "Monserrat";
+  src: url("/fonts/Montserrat-Medium.ttf") format("TrueType");
+}
+
+* {
+
+  /* border: solid 1px red; */
+
+}
+
+.header-bg {
+  background-color: #141F2F;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-main {
+  background-color: #5F2424;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: solid 5px #BA9D00;
+  border-radius: 55px;
+  margin: 0px 15px;
+  font-family: 'MedusaGothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-main a {
+  margin: 0px 5%;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+}
+
+.header-button {
+  transition: all 0.2s ease;
+  font-size: calc(15px + 2vmin);
+  text-shadow: 3px -3px 2px #000000;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  font-size: calc(20px + 2vmin);
+  text-shadow: 3px -3px 3px #000000;
+}
+
+.header-heavy-button {
+  transition: all 0.2s ease;
+  font-size: calc(35px + 2vmin);
+  text-shadow: 3px -3px 2px #000000;
+}
+
+.header-heavy-button:hover {
+  font-size: calc(40px + 2vmin);
+  text-shadow: 3px -3px 3px #000000;
+}
+
+.support-box-full {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.support-box-gray {
+  background-color: #00000069;
+  width: 100%;
+  height: 100%;
+}
+
+.support-box {
+  position: fixed;
+  background-color: #5F2424;
+  border: solid 5px #BA9D00;
+  border-radius: 15px;
+  height: 1676px;
+  width: 1990px;
+  transition: 0.5s ease-in-out;
+  font-family: 'Monserrat', Arial, sans-serif;
+  color: white;
+  text-shadow: 3px -3px 2px #000000;
+}
+
+.support-box-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-box-x-img {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.support-box-x-img:hover {
+  transform: rotate(360deg);
+}
+
+.support-box-page {
+  margin-top: 30px;
+  padding: 0px 30px;
+  font-size: 20px;
+  height: 70%;
+}
+.support-box-page input {
+  width: 98%;
+  height: 85%;
+  background-color: #141F2F;
+  border-radius: 10px;
+  border: solid 5px #BA9D00;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.support-box-full.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.support-box.active {
+  height: 676px;
+  width: 990px;
+}
+
+.up-button-box {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  right: 0px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+.up-button {
+  background-color: #141F2F;
+  height: 70px;
+  width: 70px;
+  right: 0px;
+  bottom: 30px;
+  border: solid 5px #BA9D00;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  transition: 0.1s ease-in-out;
+}
+
+.up-button:hover {
+  height: 65px;
+  width: 65px;
+  font-size: 35px;
+}
+
+.up-button-box.active {
+  right: 30px;
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+.news-menu-box-full {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.news-menu-box-gray {
+  background-color: #00000069;
+  width: 100%;
+  height: 100%;
+}
+.news-menu-box {
+  position: fixed;
+  background-color: #5F2424;
+  border: solid 5px #BA9D00;
+  border-radius: 15px;
+  height: 1676px;
+  width: 1990px;
+  transition: 0.5s ease-in-out;
+  font-family: 'Monserrat', Arial, sans-serif;
+  color: white;
+  text-shadow: 3px -3px 2px #000000;
+}
+
+.news-menu-box-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-menu-box-x-img {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.news-menu-box-x-img:hover {
+  transform: rotate(360deg);
+}
+
+.news-menu-box-x-img:hover {
+  transform: rotate(360deg);
+}
+
+.news-menu-box-full.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.news-menu-box.active {
+  height: 676px;
+  width: 990px;
+}
+.news-menu-box-in {
+  display: flex;
+}

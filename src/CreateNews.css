@@ -1,0 +1,55 @@
+.CreateNews {
+  font-size: 20px;
+  height: 600px;
+  width: 600px;
+}
+
+.CreateNews-form {
+  padding: 60px 0px;
+}
+
+.CreateNews-form input {
+  background-color: #141F2F;
+  border-radius: 10px;
+  border: solid 5px #BA9D00;
+  color: white;
+  font-size: 20px;
+  width: 95%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.CreatedNews-Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.CreatedNews-Button {
+  background-color: #5F2424;
+  border-radius: 15px;
+  border: solid 5px #BA9D00;
+  color: white;
+  font-size: 30px;
+  font-family: 'MedusaGothic', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 3px -3px 2px #000000;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.CreatedNews-Button:hover {
+  font-size: 35px;
+  width: 310px;
+}
+
+span {
+  color: red;
+}
